@@ -275,7 +275,7 @@
         //Google Maps
         $("#map").googleMap();
         $("#map").addMarker({
-            address: "15 avenue des champs Elysées 75008 Paris" // Your Address
+            address: "Nettechnocrats H-183, 2nd floor, Sector 63, Noida, Uttar Pradesh 201301" // Your Address
         });
     })
     .on("DOMSubtreeModified", subpages_resize);
