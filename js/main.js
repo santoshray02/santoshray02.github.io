@@ -52,7 +52,7 @@
 
         $('#contact-form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
+                var url = "http://127.0.0.1:8000/contactus/";
 
                 $.ajax({
                     type: "POST",
