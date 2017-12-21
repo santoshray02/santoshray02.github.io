@@ -56,7 +56,7 @@
 
                 $.ajax({
                     type: "POST",
-                    "crossDomain": true,
+                    
                     url: url,
                     data: $(this).serialize(),
                     success: function (data)
