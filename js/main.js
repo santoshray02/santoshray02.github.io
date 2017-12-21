@@ -52,7 +52,7 @@
 
         $('#contact-form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "http://13.127.29.28:8081/contactus/";
+                var url = "http://ec2-13-127-29-28.ap-south-1.compute.amazonaws.com:8081/contactus/";
 
                 $.ajax({
                     type: "POST",
